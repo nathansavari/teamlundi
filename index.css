@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
 html {
   height: 100%;
 }
@@ -6,7 +8,7 @@ body {
   height: 100%;
   margin: 0;
 
-  background: #141414;
+  background: #0e0e10;
 
   color: white;
 
@@ -35,20 +37,14 @@ body {
 
   line-height: 10px;
 
-  font-family: "Pretendard Variable", Pretendard, -apple-system,
-    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
-    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: large;
 }
 
 input,
 button,
 button * {
-  font-family: "Pretendard Variable", Pretendard, -apple-system,
-    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
-    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #game {
@@ -61,7 +57,7 @@ button * {
 
 #floor {
   width: 480px;
-  background: #b37b50;
+  background: #772ce8;
 
   border-radius: 0 0 25px 25px;
 }
